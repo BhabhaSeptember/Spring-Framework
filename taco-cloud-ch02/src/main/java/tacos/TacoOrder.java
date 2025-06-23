@@ -8,11 +8,11 @@ import java.util.List;
 import java.util.ArrayList;
 import lombok.Data;
 
-@Data
-public class TacoOrder {
+@Data 
+public class TacoOrder { 
 	
-//@NotBlank annotation ensures fields are filled in and
-//provides helpful message for user	
+//@NotBlank annotation ensures fields are filled in and 
+//provides helpful message for user 
 	@NotBlank(message="Delivery name is required")
 	  private String deliveryName;
 	
