@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: taco-cloud-ch03
+
+  datasource:
+    generate-unique-name: false
+    name: tacocloud
+
+  sql:
+    init:
+      mode: always  # Ensures data.sql runs
+
+  jpa:
+    defer-datasource-initialization: true  # 👈 Ensures data.sql runs after schema is generated
+    show-sql: true  # Optional: logs SQL queries
+    hibernate:
+      ddl-auto: create  # 👈 THIS is essential to generate schema from @Entity classes
+
+logging:
+  level:
+    org.springframework.jdbc.datasource.init.ScriptUtils: DEBUG  # Optional: show SQL script logs
