@@ -1,12 +1,14 @@
 package tacos;
 
 import java.util.Arrays;
+
 import java.util.Collection;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -42,6 +44,7 @@ import lombok.RequiredArgsConstructor;
 @Data
 @NoArgsConstructor(access=AccessLevel.PRIVATE, force=true)
 @RequiredArgsConstructor
+@Table(name = "users")
 public class User implements UserDetails {
 
 //3)Fields and Identity

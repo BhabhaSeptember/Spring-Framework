@@ -19,3 +19,4 @@ spring:
 logging:
   level:
     org.springframework.jdbc.datasource.init.ScriptUtils: DEBUG  # Optional: show SQL script logs
+

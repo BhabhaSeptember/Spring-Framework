@@ -20,6 +20,8 @@ public class WebConfig implements WebMvcConfigurer{
 //Call method on returned object to specify the view that a,
 //request to '/' should be forwarded to		 
 		 .setViewName("home");
+		 
+		 registry.addViewController("/login");
 	}
 
 }

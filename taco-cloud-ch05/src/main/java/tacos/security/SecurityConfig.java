@@ -2,8 +2,9 @@ package tacos.security;
 
 import java.util.*;
 
-
-
+import org.springframework.security.config.Customizer;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.context.annotation.Bean;
 
 import org.springframework.context.annotation.Configuration;
@@ -19,7 +20,6 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import tacos.data.UserRepository; //JPA UserDetailsService example
 import tacos.User; //JPA UserDetailsService example
 import org.springframework.security.core.userdetails.UsernameNotFoundException; //JPA UserDetailsService example
-
 
 //SUMMARY
 //The SecurityConfig class defines a Spring-managed bean that provides password 
@@ -88,6 +88,24 @@ public class SecurityConfig {
 
 //--------------------------------- JPA USER DETAILS SERVICE -----------------------------------	
 
+//SUMMARY:
+//This code defines a Spring @Bean that provides a custom UserDetailsService 
+//implementation for authentication using your database	
+
+//This bean tells Spring Security how to load user details from your database
+//using the UserRepository.
+//How it works:
+//1) The method receives a username.
+//2) It uses userRepo.findByUsername(username) to fetch a User from the 
+//database.
+//3) If the user exists, it returns the User (which implements UserDetails).
+//4) If the user does not exist, it throws a UsernameNotFoundException.
+//Why it works:
+//The method is a lambda-based implementation of the UserDetailsService 
+//interface, which only requires one method: loadUserByUsername	
+//When This Is Used:
+//Spring Security will automatically use this bean when performing 
+//authentication during login.	
 	@Bean
 	public UserDetailsService userDetailsService(UserRepository userRepo) {
 		return username -> {
@@ -97,5 +115,40 @@ public class SecurityConfig {
 			throw new UsernameNotFoundException("User '" + username + "' not found");
 		};
 	}
+
+//SUMMARY
+//This Spring Security configuration defines a SecurityFilterChain bean that
+//controls access to different parts of the web application	
+	
+//What it does:
+//1) Secures Specific URLs: "/design" and "/orders" are protected.
+//Only users with the ROLE_USER can access them (i.e., authenticated users).
+//2) Allows Public Access: The root URL ("/") and all other URLs ("/**") are
+//accessible to everyone, even unauthenticated users
+	
+//NOTES: The requestMatchers(...).hasRole("USER") line ensures access is restricted 
+//to users who have the "ROLE_USER" authority.
+//The filterChain method accepts an HttpSecurity object, which acts as a 
+//builder that can be used to configure how security is handled at the web 
+//level. Once security configuration is set up via the HttpSecurity object, 
+//a call to build() will create a SecurityFilterChain that is returned from 
+//the bean method
+//This method uses the modern lambda-based configuration, which is the 
+//recommended approach for Spring Security 6+	
+//
+//
+	@Bean
+	public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+		http.authorizeHttpRequests(authorize -> authorize
+				.requestMatchers("/design", "/orders").hasRole("USER")
+				.requestMatchers("/", "/**").permitAll()
+				)
+		.formLogin(form -> form.loginPage("/login")
+				);
+				return http.build();
+	}
+	
+
+	
 
 }
