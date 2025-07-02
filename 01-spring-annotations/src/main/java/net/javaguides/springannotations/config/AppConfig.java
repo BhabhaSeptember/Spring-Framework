@@ -1,6 +1,7 @@
 package net.javaguides.springannotations.config;
 
 import org.springframework.context.annotation.Bean;
+
 import org.springframework.context.annotation.Configuration;
 
 import net.javaguides.springannotations.controller.PizzaController;
@@ -11,6 +12,7 @@ import net.javaguides.springannotations.service.VegPizza;
 //NOTES: 
 //With annotation based configuration, we used @Autowire
 //annotation to inject the dependency automatically
+//
 //With java based configuration we explicitly provide
 //the dependency to a class. Then we use @Bean annotation
 //so Spring container can start managing the object of
@@ -39,7 +41,9 @@ public class AppConfig {
 	}
 	
 //@Bean annotation methods:	
-//a) initMethod called after bean is initialized
+//a) initMethod called after bean is initialized run after the bean is 
+//constructed and dependencies are injected, but before the bean is 
+//available for use in the application context
 //e.g.insert records in a database table at application
 //startup	
 //b) destroyMethod called before bean destruction

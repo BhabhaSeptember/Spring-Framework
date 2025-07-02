@@ -54,21 +54,21 @@ public class Application {
 	
 //======================= STEREOTYPE ANNOTATIONS ====================		
 		
-		var context = SpringApplication.run(Application.class, args);
+//		var context = SpringApplication.run(Application.class, args);
+//	
+//		MyController myController = context.getBean(MyController.class);
+//		System.out.println(myController.hello());
+//
 //		
-		MyController myController = context.getBean(MyController.class);
-		System.out.println(myController.hello());
-
-		
-		MyService myService = context.getBean(MyService.class);
-		System.out.println(myService.hello());
-		
-		MyRepository myRepository = context.getBean(MyRepository.class);
-		System.out.println(myRepository.hello());
+//		MyService myService = context.getBean(MyService.class);
+//		System.out.println(myService.hello());
+//		
+//		MyRepository myRepository = context.getBean(MyRepository.class);
+//		System.out.println(myRepository.hello());
 		
 //========================= LAZY ANNOTATION ====================		
 
-//		var context = SpringApplication.run(Application.class, args);
+		var context = SpringApplication.run(Application.class, args);
 
 		LazyLoader lazyLoader = context.getBean(LazyLoader.class);
 	}
