@@ -1,6 +1,7 @@
 package tacos.web;
 
 import java.util.HashMap;
+
 import java.util.Map;
 
 import org.springframework.core.convert.converter.Converter;
@@ -8,6 +9,15 @@ import org.springframework.stereotype.Component;
 import tacos.Ingredient;
 import tacos.Ingredient.Type;
 
+//SUMMARY: 
+//This class is a Spring component that converts a String (ingredient ID) 
+//into an Ingredient object. It is used by Spring MVC to automatically 
+//map form data to objects when processing user input
+//This converter simplifies form binding by allowing Spring MVC to 
+//automatically convert incoming String values (ingredient IDs from the 
+//form) into Ingredient objects when populating domain objects like Taco
+//
+//
 //Annotation denotes the class is a component and allows, 
 //Spring application context to create a bean of it
 @Component

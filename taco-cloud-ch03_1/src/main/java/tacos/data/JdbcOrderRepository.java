@@ -1,6 +1,7 @@
 package tacos.data;
 
 import java.sql.Types;
+
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
@@ -19,6 +20,15 @@ import tacos.IngredientRef;
 import tacos.Taco;
 import tacos.TacoOrder;
 
+//SUMMARY:
+//This class is a JDBC-based implementation of the OrderRepository 
+//interface. It handles saving TacoOrder objects — including their
+//associated tacos and ingredients — into a relational database using
+//Spring's JdbcOperations.
+//This class handles relational persistence of complex nested objects
+//(TacoOrder ➝ Taco ➝ IngredientRef) using raw SQL with Spring JDBC. 
+//It manually manages IDs and relationships between entities
+
 @Repository
 public class JdbcOrderRepository implements OrderRepository {
 
@@ -32,7 +42,8 @@ public class JdbcOrderRepository implements OrderRepository {
 	@Transactional
 	public TacoOrder save(TacoOrder order) {
 				
-//Object describes the insert query plus the types of the query's input fields		
+//Object describes the insert query plus the types of the query's 
+//input fields		
 		PreparedStatementCreatorFactory pscf = 
 				new PreparedStatementCreatorFactory(
 				"insert into Taco_Order " 

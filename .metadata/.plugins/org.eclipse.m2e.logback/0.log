@@ -7078,3 +7078,112 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2025-07-02 11:19:01,121 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-07-02 11:19:05,745 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-07-02 11:19:05,760 [Worker-160: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\01-spring-annotations\src\test\resources
+2025-07-02 11:25:49,576 [Worker-165: Launching 01-spring-annotations - Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-02 11:25:50,929 [Worker-165: Launching 01-spring-annotations - Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-02 11:25:50,949 [Worker-165: Launching 01-spring-annotations - Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\01-spring-annotations\src\test\resources
+2025-07-03 09:53:11,137 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-07-03 11:36:59,906 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 11:37:01,155 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-07-03 11:37:01,229 [Worker-36: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\taco-cloud-ch02\src\test\resources
+2025-07-03 11:48:25,876 [Worker-40: Launching taco-cloud-ch02 - TacoCloudCh01Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 11:48:26,017 [Worker-40: Launching taco-cloud-ch02 - TacoCloudCh01Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-07-03 11:48:27,354 [Worker-40: Launching taco-cloud-ch02 - TacoCloudCh01Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\taco-cloud-ch02\src\test\resources
+2025-07-03 11:54:52,132 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 11:54:52,139 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 11:54:52,147 [Worker-48: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\taco-cloud-ch02\src\test\resources
+2025-07-03 11:55:36,529 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 11:55:36,534 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 11:55:36,542 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\taco-cloud-ch02\src\test\resources
+2025-07-03 11:55:48,371 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 11:55:48,385 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-07-03 11:55:48,441 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\taco-cloud-ch02\src\test\resources
+2025-07-03 11:55:55,518 [Worker-50: Launching taco-cloud-ch02 - TacoCloudCh01Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 11:55:55,736 [Worker-50: Launching taco-cloud-ch02 - TacoCloudCh01Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-07-03 11:55:55,749 [Worker-50: Launching taco-cloud-ch02 - TacoCloudCh01Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\taco-cloud-ch02\src\test\resources
+2025-07-03 12:01:11,235 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 12:01:11,240 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-03 12:01:11,247 [Worker-39: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\taco-cloud-ch02\src\test\resources
+2025-07-03 13:31:20,820 [Worker-71: Launching DesignTacoControllerTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 13:31:20,970 [Worker-71: Launching DesignTacoControllerTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 5 resources from src\main\resources to target\classes
+2025-07-03 13:31:21,415 [Worker-71: Launching DesignTacoControllerTest] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\taco-cloud-ch02\src\test\resources
+2025-07-03 14:29:42,656 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-03 14:29:43,953 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources from src\main\resources to target\classes
+2025-07-03 14:29:44,338 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\taco-cloud-ch03_1\src\test\resources
+2025-07-04 11:34:09,243 [Worker-105: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: tutorial03:runnerz:0.0.1-SNAPSHOT @ C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\03-runnerz\pom.xml.
+2025-07-04 11:34:29,560 [Worker-105: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.5.3/spring-boot-devtools-3.5.3.pom
+2025-07-04 11:34:29,887 [Worker-105: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.5.3/spring-boot-devtools-3.5.3.pom
+2025-07-04 11:34:40,124 [Worker-105: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.5.3/spring-boot-devtools-3.5.3.jar
+2025-07-04 11:34:40,307 [Worker-105: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.5.3/spring-boot-devtools-3.5.3.jar
+2025-07-04 11:35:11,008 [Worker-119: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.5.3/spring-boot-devtools-3.5.3-sources.jar
+2025-07-04 11:35:11,442 [Worker-119: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-devtools/3.5.3/spring-boot-devtools-3.5.3-sources.jar
+2025-07-04 11:35:11,502 [Worker-119: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-devtools:3.5.3
+2025-07-04 11:35:18,161 [Worker-105: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /03-runnerz/src/main/java
+2025-07-04 11:35:18,162 [Worker-105: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /03-runnerz/src/main/resources
+2025-07-04 11:35:21,181 [Worker-105: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /03-runnerz/src/main/resources
+2025-07-04 11:35:22,208 [Worker-105: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /03-runnerz/src/test/java
+2025-07-04 11:35:22,211 [Worker-105: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /03-runnerz/src/test/resources
+2025-07-04 11:35:51,053 [Worker-105: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 175 sec
+2025-07-04 11:35:51,128 [Worker-105: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-04 11:36:15,517 [Worker-105: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: tutorial03:runnerz:0.0.1-SNAPSHOT @ C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\03-runnerz\pom.xml.
+2025-07-04 11:36:25,856 [Worker-105: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /03-runnerz/src/main/java
+2025-07-04 11:36:25,857 [Worker-105: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /03-runnerz/src/main/resources
+2025-07-04 11:36:25,857 [Worker-105: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /03-runnerz/src/main/resources
+2025-07-04 11:36:25,858 [Worker-105: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /03-runnerz/src/test/java
+2025-07-04 11:36:25,858 [Worker-105: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /03-runnerz/src/test/resources
+2025-07-04 11:36:38,890 [Worker-105: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 34,00 sec, update config takes 0,00 sec 
+2025-07-04 11:37:12,547 [Worker-126: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-07-04 11:37:38,865 [Worker-126: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: tutorial03:runnerz:0.0.1-SNAPSHOT @ C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\03-runnerz\pom.xml.
+2025-07-04 11:37:51,228 [Worker-126: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /03-runnerz/src/main/java
+2025-07-04 11:37:51,228 [Worker-126: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /03-runnerz/src/main/resources
+2025-07-04 11:37:51,229 [Worker-126: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /03-runnerz/src/main/resources
+2025-07-04 11:37:51,230 [Worker-126: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /03-runnerz/src/test/java
+2025-07-04 11:37:51,230 [Worker-126: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /03-runnerz/src/test/resources
+2025-07-04 11:37:52,879 [Worker-126: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 1,00 sec, refresh facades takes 37,00 sec, update config takes 1,00 sec 
+2025-07-04 11:38:05,630 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-04 11:38:05,975 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-04 11:38:05,990 [Worker-126: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\03-runnerz\src\test\resources
+2025-07-04 11:39:02,964 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-04 11:39:10,845 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources from src\main\resources to target\classes
+2025-07-04 11:39:11,164 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\taco-cloud-ch03_1\src\test\resources
+2025-07-04 11:39:20,067 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-04 11:39:20,074 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources from src\main\resources to target\classes
+2025-07-04 11:39:20,084 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\taco-cloud-ch03_1\src\test\resources
+2025-07-04 11:39:44,828 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-04 11:39:47,207 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 7 resources from src\main\resources to target\classes
+2025-07-04 11:39:47,218 [Worker-124: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\taco-cloud-ch03_1\src\test\resources
+2025-07-04 12:06:39,677 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-04 12:06:45,289 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-04 12:06:45,293 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\03-runnerz\src\test\resources
+2025-07-04 12:09:04,599 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-04 12:09:04,608 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-04 12:09:04,612 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\03-runnerz\src\test\resources
+2025-07-04 12:09:29,708 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-04 12:09:33,014 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-04 12:09:34,865 [Worker-136: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\03-runnerz\src\test\resources
+2025-07-04 12:14:03,742 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-04 12:14:04,519 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-04 12:14:04,532 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\03-runnerz\src\test\resources
+2025-07-04 12:14:36,520 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-04 12:14:37,308 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-04 12:14:37,314 [Worker-145: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\03-runnerz\src\test\resources
+2025-07-04 12:14:41,296 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-04 12:14:41,302 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-04 12:14:41,306 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\03-runnerz\src\test\resources
+2025-07-04 13:04:22,006 [Worker-162: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-04 13:04:35,439 [Worker-162: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-04 13:04:35,450 [Worker-162: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\03-runnerz\src\test\resources
+2025-07-04 13:51:01,785 [Worker-169: Launching 03-runnerz - Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-04 13:51:05,193 [Worker-169: Launching 03-runnerz - Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-04 13:51:05,739 [Worker-169: Launching 03-runnerz - Application] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\03-runnerz\src\test\resources
+2025-07-04 13:59:13,339 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-04 13:59:15,975 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-04 13:59:15,981 [Worker-185: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\03-runnerz\src\test\resources
+2025-07-04 13:59:47,416 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-04 13:59:50,050 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-04 13:59:50,058 [Worker-183: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\03-runnerz\src\test\resources
+2025-07-04 14:03:48,693 [Worker-192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-04 14:03:48,834 [Worker-192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-04 14:03:48,842 [Worker-192: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\03-runnerz\src\test\resources
+2025-07-04 14:55:32,542 [Worker-235: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-07-04 14:55:37,060 [Worker-235: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-07-04 14:55:37,069 [Worker-235: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\User\Documents\Bootcamp - 2024\12. SpringFramework\classwork\03-runnerz\src\test\resources

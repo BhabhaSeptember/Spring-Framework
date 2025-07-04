@@ -1,7 +1,16 @@
 package tacos.data;
 
 import java.util.Optional;
+
 import tacos.Ingredient;
+
+//SUMMARY
+//This code defines a repository interface for managing Ingredient 
+//objects in a Spring application
+//This is a Spring Data-style repository that abstracts away the 
+//database logic.
+//It's used in services or controllers to interact with ingredient 
+//data in a clean and testable way.
 
 public interface IngredientRepository {
 

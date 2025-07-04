@@ -1,6 +1,7 @@
 package tacos;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.header;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.model;
@@ -21,6 +22,19 @@ import org.springframework.test.web.servlet.MockMvc;
 
 import tacos.Ingredient.Type;
 import tacos.web.DesignTacoController;
+
+//SUMMARY:
+//This class is a unit test for the DesignTacoController in a Spring 
+//Boot application. It uses Spring’s MockMvc framework to simulate 
+//HTTP requests and validate controller behavior without starting a 
+//full web server.
+//This test class ensures that the DesignTacoController:
+//a)Correctly prepares the form and model data (GET /design)
+//b)Properly handles taco creation and redirects the user 
+//(POST /design)
+//It ensures controller logic works as intended independently of the 
+//full application context
+
 
 @ExtendWith(SpringExtension.class) // <1>
 @WebMvcTest(DesignTacoController.class)

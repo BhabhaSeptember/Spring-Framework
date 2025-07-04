@@ -1,10 +1,20 @@
 package tacos;
 
 import java.util.List;
+
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
+
 import lombok.Data;
 
+//SUMMARY:
+//This Java class defines a Taco domain model used in a taco ordering 
+//application.
+//This class models a Taco with a name and a list of selected ingredients. 
+//It uses Jakarta Bean Validation annotations to ensure required data is 
+//provided and meets minimum size requirements.
+//
+//
 //Annotation causes Lombok to automatically generate methods,
 //and constructor
 @Data

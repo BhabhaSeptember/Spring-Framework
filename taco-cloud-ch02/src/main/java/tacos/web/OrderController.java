@@ -1,6 +1,7 @@
 package tacos.web;
 
 import jakarta.validation.Valid;
+
 import org.springframework.validation.Errors;
 
 import org.springframework.stereotype.Controller;
@@ -12,6 +13,15 @@ import org.springframework.web.bind.support.SessionStatus;
 import lombok.extern.slf4j.Slf4j;
 import tacos.TacoOrder;
 
+//SUMMARY:
+//This Spring MVC controller handles the checkout and submission of a 
+//taco order in the application
+//The OrderController manages the final step in the ordering process:
+//a)Displaying the order form
+//b)Validating and processing the submitted order
+//c)Clearing session state after submission
+//
+//
 //Annotation creates Logger object at compile-time
 @Slf4j
 @Controller
@@ -36,7 +46,7 @@ public class OrderController {
 //are bound to the submitted form fields	
 	 public String processOrder(
 			 @Valid TacoOrder order, Errors errors,
-//Pass SessionStatus object as second argument of method			 
+//Pass SessionStatus object as argument of method			 
 	 SessionStatus sessionStatus) {
 		
 		if (errors.hasErrors()) {

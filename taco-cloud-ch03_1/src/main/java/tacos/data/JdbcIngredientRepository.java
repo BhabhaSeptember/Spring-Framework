@@ -9,12 +9,26 @@ import org.springframework.stereotype.Repository;
 
 import tacos.Ingredient;
 
+//SUMMARY:
+//This class provides a JDBC-based implementation of the 
+//IngredientRepository interface for accessing Ingredient data from a 
+//relational database.
+//This class connects the Ingredient domain model to a relational 
+//database using raw SQL and Spring's JdbcTemplate, handling:
+//a)Reading all ingredients
+//b)Finding an ingredient by ID
+//c)Saving new ingredients
+//It avoids using full JPA/Hibernate and keeps things simple and 
+//performant with direct SQL
+
+
 @Repository
 public class JdbcIngredientRepository implements IngredientRepository {
 
 	private JdbcTemplate jdbcTemplate;
 
-//Spring injects object with jdbcTemplate i.e. autowires through constructor
+//Spring injects object with jdbcTemplate i.e. autowires through 
+//constructor
 	public JdbcIngredientRepository(JdbcTemplate jdbcTemplate) {
 		this.jdbcTemplate = jdbcTemplate;
 	}
@@ -22,7 +36,8 @@ public class JdbcIngredientRepository implements IngredientRepository {
 //OVERRIDING INTERFACE METHODS
 	
 //syntax of jdbcTemplate's query method:
-//query(SQL query, Spring's RowMapper, list of parameters needed in query)	
+//query(SQL query, Spring's RowMapper, list of parameters needed in 
+//	query)	
 	
 	@Override
 	public Iterable<Ingredient> findAll() {

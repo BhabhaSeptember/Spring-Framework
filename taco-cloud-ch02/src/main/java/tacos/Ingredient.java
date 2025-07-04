@@ -1,6 +1,12 @@
 package tacos;
 
-//A Java domain class the defines a domain object we need for this application
+//SUMMARY:
+//This Java class defines a domain model called Ingredient used in a
+//taco ordering application.
+//This class models a single taco ingredient with an ID, name, and 
+//type — useful for managing selections in a taco-building app.
+//
+//
 //Domain = an application subject area i.e. ingredients
 
 //Import lombok library which automatically generates at compile-time:

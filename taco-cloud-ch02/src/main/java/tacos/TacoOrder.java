@@ -8,6 +8,15 @@ import java.util.List;
 import java.util.ArrayList;
 import lombok.Data;
 
+//SUMMARY: 
+//This Java class defines a TacoOrder domain model used for placing taco 
+//orders in a taco ordering application
+//The TacoOrder class is a form-backed object that captures and validates:
+//Delivery details, Credit card info and Selected tacos
+//It's designed to work seamlessly with Spring MVC form validation and 
+//ensures that every order is valid before being processed
+
+
 @Data 
 public class TacoOrder { 
 	

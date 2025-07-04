@@ -1,6 +1,7 @@
 package tacos.web;
 
 import java.util.Arrays;
+
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -21,6 +22,20 @@ import tacos.Ingredient.Type;
 import tacos.Taco;
 import tacos.TacoOrder;
 
+//SUMMARY:
+//This Java class is a Spring MVC controller that handles taco design 
+//interactions in a web application. It allows users to select 
+//ingredients, create tacos, and build an order over multiple requests.
+//This controller manages the flow of:
+//a)Presenting the taco design form
+//b)Validating user input
+//c)Collecting individual tacos into an order
+//d)Moving users through the order process
+//It's designed to work with Spring MVC forms, session state, and 
+//server-side validation using annotations like @Valid and @NotBlank
+//
+//
+//
 //Annotation automatically generates a Logger static property in class
 @Slf4j
 //Identifies the class as a controller and marks it for component,
@@ -42,12 +57,17 @@ public class DesignTacoController {
 //a controller and the view that must render the data
 	@ModelAttribute
 	public void addIngredientsToModel(Model model) {
-		List<Ingredient> ingredients = Arrays.asList(new Ingredient("FLTO", "Flour Tortilla", Type.WRAP),
-				new Ingredient("COTO", "Corn Tortilla", Type.WRAP), new Ingredient("GRBF", "Ground Beef", Type.PROTEIN),
+		List<Ingredient> ingredients = Arrays.asList(
+				new Ingredient("FLTO", "Flour Tortilla", Type.WRAP),
+				new Ingredient("COTO", "Corn Tortilla", Type.WRAP), 
+				new Ingredient("GRBF", "Ground Beef", Type.PROTEIN),
 				new Ingredient("CARN", "Carnitas", Type.PROTEIN),
-				new Ingredient("TMTO", "Diced Tomatoes", Type.VEGGIES), new Ingredient("LETC", "Lettuce", Type.VEGGIES),
-				new Ingredient("CHED", "Cheddar", Type.CHEESE), new Ingredient("JACK", "Monterrey Jack", Type.CHEESE),
-				new Ingredient("SLSA", "Salsa", Type.SAUCE), new Ingredient("SRCR", "Sour Cream", Type.SAUCE));
+				new Ingredient("TMTO", "Diced Tomatoes", Type.VEGGIES), 
+				new Ingredient("LETC", "Lettuce", Type.VEGGIES),
+				new Ingredient("CHED", "Cheddar", Type.CHEESE), 
+				new Ingredient("JACK", "Monterrey Jack", Type.CHEESE),
+				new Ingredient("SLSA", "Salsa", Type.SAUCE), 
+				new Ingredient("SRCR", "Sour Cream", Type.SAUCE));
 
 //Filter the list of ingredients by type using, 
 //helper method: filterByType()	    
@@ -62,7 +82,6 @@ public class DesignTacoController {
 	}// end of addIngredientsToModel method
 
 //Method creates tacoOrder object to place into model object
-//	 
 	@ModelAttribute(name = "tacoOrder")
 	public TacoOrder order() {
 		return new TacoOrder();
